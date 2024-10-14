@@ -1,42 +1,33 @@
-
-<div class="card">
-  <div class ='header'>
-      Заголовок
-  </div>
-
-  <div class ='content'>
-    <p>Содержание</p>
-      <p>123</p>
-  </div>
-
-  <div class ='footer'>Подвал</div>
-</div>
-
+              
 <style>
+  .flex-container {
+
+    display: flex;
+         
+
+    background-color: #bbdefb;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+
+  }
+
+  .flex-container > div{
+    background: #ffecb3;
+    border: 3px solid #ffcc80;
+    border-radius: 5px;
+    padding: 50px;
+    background-color: #ff0000;
+    background: #ffffff url(/img/ottawa.jpg) center center/cover nt;
+  }
 
 
-.content{
-  border:1px solid rgb(95, 23, 190);
-  /* height: -webkit-fill-available; */
-  height:100%;
-}
-.card {
-  display: flex;
-  flex-flow: column;
-  background:#dde;
-  height: 300px;
-  justify-content: space-between;
-  background:#dde;
-  height: 300px;
-}
-.footer{
-  background: #8f7c8c;;
-}
-.header{
-  background: #8f7c8c;;
-}
 
-.content, .footer, .header{
-  padding:5px;
-}
 </style>
+
+<div class="flex-container">
+   
+    <div class="item1">item 1</div>
+
+</div>
+            

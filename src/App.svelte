@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
   import Comp1 from "./lib/Comp1.svelte";
   import Comp2 from "./lib/Comp2.svelte";
   import Comp3 from "./lib/Comp3.svelte";
@@ -57,7 +59,7 @@
     <div class="container">
       <div class="left-sidebar">
         <h2>Левый сайдбар</h2>
-        <p>Здесь может быть реклама, новости или дополнительные пункты меню</p>
+        <p>Новости</p>
       </div>
 
       <div class="main-content">
@@ -73,7 +75,7 @@
       <div class="right-sidebar">
         <h2>Правый сайдбар </h2>
         <!-- <DetectMessage messagefrom={current_message} /> -->
-         Здесь может быть любая дополнительная информация
+         Реклама
       </div>
     </div>
     <footer>
